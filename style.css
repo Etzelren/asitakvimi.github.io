@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -59,9 +60,9 @@ background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
 background-size: 100% 100%;
-padding-left: 8%;
-padding-right: 8%;
-box-sizing: border-box;
+padding-left: 0%;
+padding-right: 0%;
+box-sizing:border-box
 
 }
 
@@ -84,6 +85,13 @@ width:100%;
     text-align:center;
 }
 
+::-webkit-scrollbar{
+    background-color: #ff6e00 ;
+    width: 14px;
+}
 
-
+::-webkit-scrollbar-thumb{
+    background-color:rgba(22, 112, 214, 0.8 );
+    border-radius: 10px;
+}
 
